@@ -1,14 +1,15 @@
 {
-  "name": "json-differ",
-  "version": "0.0.1",
+  "name": "ngl-json-differ",
+  "version": "0.0.2",
   "description": "Compares to JSON data and gives difference their difference added,modified,deleted",
   "main": "dist/index",
   "typings": "dist/index",
   "scripts": {
     "prepublishOnly": "npm run compile",
-    "compile": "npm run clean && tsc -p .",
+    "compile": "tsc",
     "watch": "tsc -w -p .",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "test": "node ./test/index.js"
   },
   "bugs": {
     "url": "https://github.com/lucy-i/json-differ/issues"
@@ -21,8 +22,8 @@
     "JSON comparison,data comparison,data difference,difference,merge,js difference"
   ],
   "author": {
-    "name": "ramkumar.murugarasan@hotmail.com",
-    "email": "ramkumar.murugarasan@hotmail.com"
+    "name": "Lucy",
+    "email": "lucy@ilucy.in"
   },
   "license": "MIT",
   "devDependencies": {

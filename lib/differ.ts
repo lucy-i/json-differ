@@ -225,3 +225,11 @@ export class Differ {
     return differrence;
   }
 }
+
+// window["differ"] = Differ;
+
+// namespace global {
+//   interface Differ {
+//     getfullDifference(src: any, target: any);
+//   }
+// }

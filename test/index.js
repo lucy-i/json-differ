@@ -1,19 +1,4 @@
-# ngl-json-differ
-----------
-Compares to JSON data and gives difference their difference added,modified,deleted
-
-### Usage 
-With this it is easy to identify the changes bet biffrent version json data. 
-
-*e.g identify object changes in specific while versioning NO-SQL Data.*
-
-## Installation
-
-npm i ngl-json-differ --save
-
-## Sample Code
-```js
-const differ = require("ngl-json-differ");
+const differ = require("../dist/index");
 
 
 const difference = new differ.Differ({ name: "token", props: ["name"] }).getfullDifference(
@@ -45,27 +30,4 @@ for (const key in difference) {
         console.log(JSON.stringify(element));
     }
 }
-console.log("******* XXX *******");
-```
-
-### Output
-![Sample Output](./test/output.JPG)
-
-FOR ( **Angular** )
-```typescript
-import { Differ } from 'ngl-json-differ';
-
-@Injectable()
-export class DifferService extends Differ {
-    
-}
-```
-FOR ( **typescript** )
-```typescript
-import { Differ } from 'ngl-json-differ';
-
-const differ=new Differ({ name: "token", props: ["name"] });
-
-differ.getfullDifference(obja,objb);
-```
-
+console.log("*******XXX*******");
