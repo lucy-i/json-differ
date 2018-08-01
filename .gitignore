@@ -1,0 +1,4 @@
+# compiled version of your module will be placed here by typescript compiler
+dist
+# local dependencies of your module will be put by npm here
+node_modules
