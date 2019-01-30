@@ -3,7 +3,7 @@
 Compares to JSON data and gives difference their difference added,modified,deleted
 
 ### Usage 
-With this it is easy to identify the changes bet biffrent version json data. 
+With this it is easy to identify the changes between diffrent version json data. 
 
 *e.g identify object changes in specific while versioning NO-SQL Data.*
 
