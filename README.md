@@ -9,7 +9,7 @@ With this it is easy to identify the changes between different version json data
 
 ## Installation
 
-npm i [ngl-json-differ]  --save(https://www.npmjs.com/package/ngl-json-differ)
+npm i [ngl-json-differ](https://www.npmjs.com/package/ngl-json-differ)  --save
 
 ## Sample Code
 ```js
